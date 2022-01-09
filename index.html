@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Game</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
+    <!-- defer => 스크립트가 HTML 준비되기 이전에 실행되기 때문에 안되기 때문에 defer를 등록해줌 -->
     <script src="https://kit.fontawesome.com/4ba3f8373d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section class="game">
       <header class="game__header">
         <button class="game__button">
-          <i class="fas fa-play-circle"></i>
+          <i class="fas fa-play"></i>
         </button>
         <span class="game__timer">0:0</span>
         <span class="game__score">9</span>
